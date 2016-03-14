@@ -1,0 +1,163 @@
+﻿@model WebApplication1.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_account)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_account)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_post)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_post)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_wx)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_wx)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_qq)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_qq)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_emailpassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_emailpassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_emailsmtp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_emailsmtp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_group)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_group)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_competence)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_competence)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_subordinate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_subordinate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_overtime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_overtime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_open)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_open)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_dataworking)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_dataworking)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cs_regdatetime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cs_regdatetime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cp_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cp_id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cs_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

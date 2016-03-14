@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kfglxt", "WebApplication1\kfglxt.csproj", "{C155EB0D-CA20-41B7-9800-62A4DABA3652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{0000D252-7A61-4773-A54A-788579DECE85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C155EB0D-CA20-41B7-9800-62A4DABA3652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C155EB0D-CA20-41B7-9800-62A4DABA3652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C155EB0D-CA20-41B7-9800-62A4DABA3652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C155EB0D-CA20-41B7-9800-62A4DABA3652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0000D252-7A61-4773-A54A-788579DECE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0000D252-7A61-4773-A54A-788579DECE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0000D252-7A61-4773-A54A-788579DECE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0000D252-7A61-4773-A54A-788579DECE85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
